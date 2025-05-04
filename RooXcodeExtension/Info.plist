@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.RooXcodeExtension</string>
+    <key>CFBundleName</key>
+    <string>RooXcodeExtension</string>
+    <key>NSExtension</key>
+    <dict>
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.dt.Xcode.source-editor-extension</string>
+        <key>NSExtensionPrincipalClass</key>
+        <string>$(PRODUCT_MODULE_NAME).RooXcodeExtension</string>
+        <key>XCSourceEditorCommandDefinitions</key>
+        <array>
+            <dict>
+                <key>XCSourceEditorCommandClassName</key>
+                <string>$(PRODUCT_MODULE_NAME).RooXcodeCommand</string>
+                <key>XCSourceEditorCommandIdentifier</key>
+                <string>com.example.RooXcodeExtension.plusButtonClicked</string>
+                <key>XCSourceEditorCommandName</key>
+                <string>Roo: Plus Button Clicked</string>
+            </dict>
+            <dict>
+                <key>XCSourceEditorCommandClassName</key>
+                <string>$(PRODUCT_MODULE_NAME).RooXcodeSettingsCommand</string>
+                <key>XCSourceEditorCommandIdentifier</key>
+                <string>com.example.RooXcodeExtension.settingsButtonClicked</string>
+                <key>XCSourceEditorCommandName</key>
+                <string>Roo: Settings Button Clicked</string>
+            </dict>
+            <dict>
+                <key>XCSourceEditorCommandClassName</key>
+                <string>$(PRODUCT_MODULE_NAME).RooXcodePromptsCommand</string>
+                <key>XCSourceEditorCommandIdentifier</key>
+                <string>com.example.RooXcodeExtension.promptsButtonClicked</string>
+                <key>XCSourceEditorCommandName</key>
+                <string>Roo: Prompts Button Clicked</string>
+            </dict>
+            <dict>
+                <key>XCSourceEditorCommandClassName</key>
+                <string>$(PRODUCT_MODULE_NAME).RooXcodeMcpCommand</string>
+                <key>XCSourceEditorCommandIdentifier</key>
+                <string>com.example.RooXcodeExtension.mcpButtonClicked</string>
+                <key>XCSourceEditorCommandName</key>
+                <string>Roo: MCP Button Clicked</string>
+            </dict>
+            <dict>
+                <key>XCSourceEditorCommandClassName</key>
+                <string>$(PRODUCT_MODULE_NAME).RooXcodeHistoryCommand</string>
+                <key>XCSourceEditorCommandIdentifier</key>
+                <string>com.example.RooXcodeExtension.historyButtonClicked</string>
+                <key>XCSourceEditorCommandName</key>
+                <string>Roo: History Button Clicked</string>
+            </dict>
+            <dict>
+                <key>XCSourceEditorCommandClassName</key>
+                <string>$(PRODUCT_MODULE_NAME).RooXcodeAcceptInputCommand</string>
+                <key>XCSourceEditorCommandIdentifier</key>
+                <string>com.example.RooXcodeExtension.acceptInput</string>
+                <key>XCSourceEditorCommandName</key>
+                <string>Roo: Accept Input</string>
+            </dict>
+            <dict>
+                <key>XCSourceEditorCommandClassName</key>
+                <string>$(PRODUCT_MODULE_NAME).RooXcodeHumanRelayCommand</string>
+                <key>XCSourceEditorCommandIdentifier</key>
+                <string>com.example.RooXcodeExtension.showHumanRelayDialog</string>
+                <key>XCSourceEditorCommandName</key>
+                <string>Roo: Show Human Relay Dialog</string>
+            </dict>
+        </array>
+    </dict>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+/* Localizable.strings
+   English localization for RooXcodeExtension.
+   Add your localized strings here.
+*/
+
+"EXTENSION_NAME" = "RooXcodeExtension";
